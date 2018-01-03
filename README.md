@@ -1,2 +1,11 @@
 # docker-compose-postgres
-Docker compose with a PostgreSQL service.
+PostgreSQL running on an Ubuntu image
+
+- Initialize a seed database script on startup
+- Peristant volume store
+
+## Getting started
+
+```bash
+docker-compose up
+```
